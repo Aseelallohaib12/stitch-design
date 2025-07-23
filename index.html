@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>Stitch Design</title>
-  <link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
-  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-  <link href="https://fonts.googleapis.com" rel="preconnect"/>
-  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
-  <style type="text/tailwindcss">
-    :root {
-      --primary-color: #e8b4b7;
-      --secondary-color: #412a2b;
-      --background-color: #1f1415;
-      --text-primary: #ffffff;
-      --text-secondary: #bf9c9e;
-      --accent-color: #2a1c1d;
-    }
-    body {
-      font-family: "Manrope", sans-serif;
-      background-color: var(--background-color);
-      color: var(--text-primary);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stitch Design</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Body content from user HTML omitted for brevity -->
-  <h1 style="text-align: center; margin-top: 50px;">Stitch Design Demo</h1>
+    <header>
+        <h1>Stitch Design</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Welcome to Stitch Design</h2>
+            <p>Your vision, stitched to perfection.</p>
+            <button onclick="alert('Let's start designing!')">Get Started</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Stitch Design. All rights reserved.</p>
+    </footer>
 </body>
 </html>
